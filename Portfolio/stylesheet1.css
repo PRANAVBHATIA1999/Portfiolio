@@ -1,0 +1,287 @@
+@import url(https://fonts.googleapis.com/css?family=Seaweed+Script);
+body {
+	font-family:Verdana;
+	font-size: 50px;
+	color: black;
+	margin: 0px;
+
+
+}
+body::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color:#ffaa00; maroon;
+  outline: 1px solid slategrey;
+}
+#nav {
+	position: fixed;
+	font-size: 25px;
+	font-weight: bolder;
+	background-color: #ffaa00; #ed1d61; #b21515; #d6cb00;
+	height:40px;
+	width: 100%;
+	font-family: tahoma;
+	text-transform: uppercase;
+	text
+}
+#nav ul { 
+	padding:0;
+	margin: 0;
+	list-style-type: none;
+	text-align: center;
+	float:left;
+}
+#nav li {
+	display: inline;
+	padding:15px;
+	vertical-align: middle;
+}
+#nav a {
+	text-decoration:none;
+	color: Black;
+	padding: 8px 8px 8px 8px;
+	vertical-align:middle;
+}
+#nav a:hover {
+	color:maroon;
+	background-color: white;
+}
+
+#main {
+	background-color: grey;
+	font-family:Verdana;
+	font-size: 50px;
+	color: green;
+	margin: 0px;
+	height:600px;
+}
+.mainh1 {
+	font-size: 90px;
+	color: white;
+	font-family: Bernard MT Condensed;
+	line-height: 90px;
+}
+h1 {
+	font-family: Elianto, Mosk Typeface, Arial, Lucida Console;
+	font-size: 60px;
+	color: white;
+	font-weight: bold;
+	padding-top: 80px;
+	padding-bottom: 60px;
+	padding-left: 300px;
+	padding-right: 300px;
+	margin: 0px;
+	line-height:70px;
+	width:1300px;
+
+}
+.image2 {
+	display:inline;
+	height:600px;
+	width: 400px;
+	float: right;
+	margin:0px;
+}
+#aboutme {
+	background-color: #ADD8E6;
+	font-family:Verdana;
+	font-size: 50px;
+	color: black;
+	margin: 0px;
+	padding-top: 200px;
+	padding-left: 100px;
+	
+
+}
+
+
+.button {
+  font: bold 40px Arial;
+  text-decoration: none;
+  background-color: white;
+  color: #89563;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC; 
+  margin-left: 400px;
+  border-radius: 20px;
+  box-shadow: 0 10px #27496d;
+}
+h2.aboutme{
+	font-size: 40px;
+	font-family: MetricHPE Black;
+	color: maroon;
+	padding-top: 0px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+	margin-top:-100px;
+}
+hr {
+	height: 3px;
+    background-color: #ed1d61;
+    border:none;
+    width:70%;
+	float: left;
+	margin: -20px;
+}
+p.aboutme {
+	font-family:Verdana;
+	font-size: 20px;
+	color: black;
+	margin-top: 5px;
+	
+}
+li {
+	font-family:Verdana;
+	font-size: 20px;
+	color: black;
+	margin-top: 5px;
+}
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+}
+
+.skills {
+    text-align: right; /* Right-align text */
+    padding-right: 20px; /* Add some right padding */
+    line-height: 40px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #4CAF50;} /* Green */
+.css {width: 80%; background-color: #2196F3;} /* Blue */
+.js {width: 65%; background-color: #f44336;} /* Red */
+.php {width: 60%; background-color: #808080;} /* Dark Grey */
+
+.fb {
+	height: 50px;
+	width: 50px;
+	margin-right: 20px;
+   
+}
+.twi {
+	height: 50px;
+	width: 50px;
+	margin-right: 20px;
+}
+.mail {
+	height: 50px;
+	width: 50px;
+	margin-right: 20px;
+}
+.maintext {
+	background-color: #FFF7C0;
+	font-size: 25px;
+	margin-top: -50px;
+}
+.maintext h1{
+	margin-left:140px;
+	text-align: center;
+	text-shadow: 2px 2px 2px #CCCCCC;
+	font-family: "Seaweed Script";
+	font-size: 150px;
+	color: maroon;
+	
+}
+.maintext hr {
+	height: 3px;
+    background-color: lightblue;
+    border:none;
+    width:50%;
+	margin-left: 380px;
+	
+
+}
+	
+.maintext p {
+	font-family: MV Boli;
+	font-size: 20px;
+	padding: 10px 250px;
+	line-height:30px;
+} 
+
+}
+#contact{
+  height: 40px;
+  margin-top: 0px;
+  padding: 1rem;
+  background-color: yellow;
+  text-align: center;
+}
+.tagline {
+	background-image: url("tagline1.jpg");
+	width: 100%;
+	height: 450px;
+	margin-top: -20px;
+	background-repeat: no-repeat;
+
+}
+.button2 {
+  display: block;
+  box-sizing: border-box;
+  margin-left: 400Px;
+  /*margin: 0 auto;*/
+  padding: 8px;
+  width: 320PX;
+  background: #fff; /* fallback color for old browsers */background: rgba(255, 255, 255, 0.5);
+  border-radius: 8x;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: all 0.3s ease-out;
+  font: bold 40px Arial;
+	
+}
+.footer {
+	background-color: darkgrey;
+	height:110px;
+	
+	
+}
+
+.footer h1 {
+	color: white;
+	text-align: left;
+	margin-left: 65px;
+	font-size: 15px;
+	padding:0px;
+	font-family: Cambria;
+ 
+}
+.footer p {
+	color: white;
+	text-align: left;
+	margin-left: 65px;
+	margin-top: -10px;
+	font-size: 14px;
+	padding:0px;
+	font-family: Cambria;
+}
+
+.footer h2 {
+	color: white;
+	text-align: center;
+	margin-top: -20px;
+	font-size: 12px;
+	padding:0px;
+	font-family: Cambria;
+}
+
+
+	
+

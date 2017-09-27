@@ -1,0 +1,47 @@
+body {
+	font-family:Verdana;
+	font-size: 50px;
+	color: black;
+	
+}
+#nav {
+	font-family:Verdana;
+	font-size: 50px;
+	color: black;
+	background-color: yellow;
+	margin:0px;
+	height:60px;
+}
+h1 {
+	font-family: Lucida Console;
+	font-size: 80px;
+	color: white;
+	font-weight: bold;
+	padding-top: 100px;
+	padding-left: 100px;
+	padding-right: 100px;
+	width: 650px;
+	margin: 0px;
+	line-height:90px;
+}
+
+#main {
+	font-family:Verdana;
+	font-size: 50px;
+	color: green;
+	background-color: black;
+	
+	
+}
+.first {
+	height: 700px;
+	width: 600px;
+	position: relative;
+    left: 950px;
+	top: -420px;
+    border: 1px solid #ffffff
+
+}
+	
+	
+	

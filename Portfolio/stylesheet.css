@@ -1,0 +1,104 @@
+body {
+	font-family:Verdana;
+	font-size: 50px;
+	color: black;
+	margin: 0px;
+	
+}
+#nav {
+	font-family:Verdana;
+	font-size: 20px;
+	color: black;
+	background-color: yellow;
+	margin:0px;
+	height:40px;
+}
+#main {
+	background-color: grey;
+	font-family:Verdana;
+	font-size: 50px;
+	color: green;
+	margin: 0px;
+	height:600px;
+}
+h1 {
+	font-family: Lucida Console;
+	font-size: 90px;
+	color: white;
+	font-weight: bold;
+	padding-top: 120px;
+	padding-bottom: 80px;
+	padding-left: 150px;
+	padding-right: 150px;
+	margin: 0px;
+	line-height:80px;
+	width:900px;
+
+}
+.image2 {
+	display:inline;
+	height:600px;
+	width: 400px;
+	float: right;
+	margin:0px;
+}
+#aboutme {
+	background-color: #ADD8E6;
+	font-family:Verdana;
+	font-size: 50px;
+	color: black;
+	margin: 0px;
+	padding-top: 200px;
+	padding-left: 100px;
+
+}
+.button {
+  font: bold 20px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #89563;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC; 
+  margin-left: 400px;
+  border-radius: 20px;
+}
+h2.aboutme{
+	font-size: 40px;
+	font-family: MetricHPE Black;
+	color: maroon;
+	padding-top: 0px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+	margin-top:-100px;
+}
+hr {
+	height: 3px;
+    background-color: #ed1d61;
+    border:none;
+    width:70%;
+	float: left;
+	margin: 0px;
+}
+p.aboutme {
+	font-family:Verdana;
+	font-size: 20px;
+	color: black;
+	margin-top: 5px;
+	
+}
+li {
+	font-family:Verdana;
+	font-size: 20px;
+	color: black;
+	margin-top: 5px;
+}
+	
+	
+	
+	
+	
+	

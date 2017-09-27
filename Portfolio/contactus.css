@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Seaweed+Script);
+body {
+	background-image: url("Tagline.jpg");
+	padding: 50px 300px;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: white;
+    color: Black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: orange;
+    padding: 20px;
+	margin-top: -50px;
+}
+h1 {
+	font-size: 90px;
+	font-family: MetricHPE Black;
+	color: white;
+	text-align: center;
+	/* padding-top: 0px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+	margin-top:px; */
+}

@@ -1,0 +1,31 @@
+@import url(https://fonts.googleapis.com/css?family=Arvo:700);
+@import url(https://fonts.googleapis.com/css?family=Seaweed+Script);
+
+/*.heading {
+  font-family: "Seaweed Script";
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  position: relative;
+  margin:0;
+}
+.heading headingb {
+  background-color: Yellow;
+  padding: 0 0.3em;
+}
+.script:before {
+  content:"";
+  display: block;
+  position: absolute;
+  z-index:-1;
+  top: 50%;
+  width: 100%;
+  border-bottom: 3px solid #fff;
+}
+*/
+h2 {
+    text-shadow: 2px 2px 2px #CCCCCC;
+	font-family: "Seaweed Script";
+	font-size: 200px;
+	color: lightblue;
+}
